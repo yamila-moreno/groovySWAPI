@@ -10,5 +10,4 @@ before_install:
     - export PATH=$PWD/groovy-2.3.9/bin:$PATH
 
 script:
-    - groovy -version
     - groovy SwapiSpec.groovy
